@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+*{	
+	margin: 0;
+	padding: 0;
+	font-family: 'roboto', sans-serif;
+}
+.clear{
+	clear:both;
+}
+body
+{
+	padding: 20px;
+	background-color: #ffffff;
+}
+#Header 
+{
+	margin: 10px;
+	padding: 10px;
+	border-bottom: 1px solid #000000; 	
+}
+#logo {
+	font-size: 25px;
+}
+#logo img{
+	height: 40px;
+	width: auto;
+	border-right: 1px solid black;
+	margin-right: 10px;
+}
+#logo{
+	float: left;
+	width: 50%;
+}
+#menu{
+	text-align: right;
+}
+#menu ul{
+	list-style: none;
+}
+#menu ul li {
+	display: inline-block;
+}
+#menu ul li a {
+	text-decoration: none;
+	color: #0000ff;
+	padding: 10px;
+}
+#Hero {
+	width: 100%;
+	margin: 10px 0;
+}
+#Hero img{
+	width: 100%;
+	height: auto;
+}
+.featured-img{
+	float: left;
+	width: 21%;
+	height: auto;
+	margin: 10px 0 0 0;
+}
+.featured-img.uno{
+	margin: 10px 0 0 4%;
+}
+.featured-img.dos{
+	margin: 10px 0 0 4%;
+}
+.featured-img.tres{
+margin: 10px 0 0 4%;
+}
+.featured-img.quatro{
+	margin: 10px 0 0 4%;
+}
+
+.featured-img img{
+	width: 100%;
+	height: auto;
+
+}
+#Footer 
+{
+	margin: 18% 0 0 0;
+	padding: 10px;
+	border-top: 1px solid #000000;
+}
+#address {
+	margin-top: 0px;
+	float: right;
+}
+#copyright {
+	margin-top: 0px;
+	float: left;
+}
